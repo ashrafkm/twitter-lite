@@ -33,12 +33,12 @@ import { EventEmitter } from 'events';
 import * as OAuth from 'oauth-1.0a';
 
 export default class Twitter {
-  private authType: AuthType;
-  private url: string;
-  private oauth: string;
-  private config: TwitterOptions;
-  private client: OAuth;
-  private token: KeySecret;
+  authType: AuthType;
+  url: string;
+  oauth: string;
+  config: TwitterOptions;
+  client: OAuth;
+  token: KeySecret;
 
   constructor(options: TwitterOptions);
 
